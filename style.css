@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins";
+  background: black;
+}
+
+/* Header */
+nav {
+  margin: 15px 150px;
+}
+.nav-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.nav-header .logo img {
+  width: 55px;
+}
+.nav-header .tags {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-left: 35px;
+}
+.nav-header a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.nav-header a:hover{
+  background: rgba(45, 45, 45, 0.724);
+
+}
+.nav-header .login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.nav-header .login .lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.nav-header .login .lang:hover {
+  background: rgba(45, 45, 45, 0.724);
+
+}
+.nav-header .login button {
+  font-size: 14px;
+  padding: 10px 14px;
+  border-radius: 100px;
+  border: none;
+  transition: all 0.5s;
+}
+.nav-header .login button:hover {
+  background: rgb(203, 203, 203);
+}
+.head {
+  color: white;
+  margin: 0px 150px;
+  padding: 64px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.head .content {
+  display: flex;
+  flex-direction: column;
+}
+.head .content p:first-child {
+  font-size: 50px;
+  font-weight: 500;
+}
+.head .content p:nth-child(2) {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.head .image img {
+  width: 560px;
+}
+.destination {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  margin-top: 18px;
+}
+.destination .item {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 15px;
+  color: black;
+  background: white;
+  border: none;
+  border-radius: 10px;
+}
+.destination .item i:first-child {
+  font-size: 12px;
+  margin-right: 20px;
+}
+.destination .item input {
+  border: none;
+  width: 100%;
+}
+.destination .item input::placeholder {
+  font-size: 16px;
+}
+.fa-solid.fa-location-arrow {
+  font-size: 25px;
+}
+
+.price {
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+.price:hover {
+  background: rgb(222, 222, 222);
+}
+.destination .line {
+  height: 50px;
+  border: none;
+  width: 1px;
+  background: white;
+  position: absolute;
+  top: 40px;
+  left: 21px;
+  z-index: -1;
+}
+
+/* Section 1 */
+section {
+  background: white;
+}
+.section-1,
+.section-2,
+.section-3 {
+  margin: 0px 150px;
+  padding: 64px;
+  display: flex;
+  gap: 130px;
+}
+.section-1 img,
+.section-2 img,
+.section-3 img {
+  width: 550px;
+}
+.sec-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.sec-item p:first-child,
+.app-section p:first-child {
+  font-size: 45px;
+  font-weight: 600;
+}
+.sec-item p:nth-child(2) {
+  font-size: 15px;
+  padding-right: 20px;
+}
+.sec-item .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.sec-item .btn-container button {
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.sec-item .btn-container button:hover {
+  background: #333333;
+}
+.sec-item .btn-container a {
+  text-decoration: none;
+  padding-bottom: 2px;
+  font-weight: 300;
+  color: black;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(164, 164, 164);
+}
+
+/* Section 3 & App Section*/
+
+.section-3 .sec-item p:first-child {
+  font-size: 36px;
+}
+.app-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.app-section p:first-child {
+  font-size: 32px;
+}
+.section-4 {
+  background: #f6f6f6;
+}
+.app-section {
+  margin: 0px 150px;
+  padding: 64px;
+}
+.app-download {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.app {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+}
+.app img {
+  width: 150px;
+}
+.download {
+  margin-right: 30px;
+}
+.download p:first-child {
+  font-size: 22px;
+}
+
+/* Footer */
+
+.footer-content {
+  margin: 0px 150px;
+  padding: 64px;
+  margin-top: 50px;
+  color: white;
+}
+.footer-content img {
+  width: 55px;
+}
+.footer-content > p {
+  padding: 40px 0px;
+  width: fit-content;
+}
+.footer-content > p:hover {
+  border-bottom: 1px solid rgb(194, 194, 194);
+  cursor: pointer;
+}
+.all-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: flex-start;
+  gap: 200px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.links h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.links p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.links p:hover {
+  color: #bcbcbc;
+  cursor: pointer;
+}
+.socials-loc {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 65px;
+}
+.socials i {
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+.socials i:hover {
+  background: rgba(45, 45, 45, 0.724);
+}
+.lang-loc {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+.item:hover {
+  background: rgba(45, 45, 45, 0.724);
+}
+.download-app {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 70px;
+}
+.download-app img {
+  width: 125px;
+}
+.sign {
+  text-align: center;
+  margin: 30px 0px;
+  color: #bcbcbc;
+}
+.sign span {
+  color: #ef4f5f;
+}
